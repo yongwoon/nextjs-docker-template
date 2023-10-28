@@ -13,7 +13,7 @@ COPY ./package-lock.json $APP_ROOT
 
 WORKDIR $APP_ROOT
 
-# RUN yarn install
+# RUN npm install
 COPY . $APP_ROOT
 
-CMD [ "npm", "run", "dev" ]
+# CMD [ "npm", "run", "dev" ]
