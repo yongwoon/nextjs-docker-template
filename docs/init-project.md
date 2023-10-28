@@ -1,5 +1,11 @@
 # Create Nextjs Project
 
+- Create Network (only one time)
+
+```bash
+docker network create dev_nextjs_template_network
+```
+
 - Create Project
 
 ```bash
