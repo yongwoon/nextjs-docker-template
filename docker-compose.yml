@@ -5,7 +5,9 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile.dev
+    stdin_open: true
     tty: true
+    command: npm run dev
     volumes:
       - ./:/var/www
     ports:
